@@ -1,4 +1,4 @@
-package runner;
+package configuration;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -6,8 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         plugin = "pretty",
         features = {"scenarios"},
-        glue = {"steps"}
+        glue = {"steps", "configuration.hooks"}
 )
-public class CucumberRunner extends AbstractTestNGCucumberTests {
+public class CucumberRunnerTest extends AbstractTestNGCucumberTests {
 
 }
