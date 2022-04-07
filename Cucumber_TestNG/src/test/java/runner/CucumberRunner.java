@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         plugin = "pretty",
-        features = {"scenarios"},
+        features = {"src/test/resources/scenarios"},
         glue = {"steps"}
 )
 public class CucumberRunner extends AbstractTestNGCucumberTests {

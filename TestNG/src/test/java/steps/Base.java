@@ -7,7 +7,6 @@ import utils.LoggingUtils;
 
 import static io.restassured.RestAssured.when;
 
-
 public class Base {
 
     private final String baseUrl = "http://swapi.dev/api/";
