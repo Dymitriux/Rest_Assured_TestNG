@@ -2,7 +2,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="First features.scenarios">
         <classes>
-<!--            <class name="configuration.hooks.Hooks"/>-->
+            <class name="configuration.hooks.Hooks"/>
             <class name="configuration.CucumberRunnerTest"/>
         </classes>
     </test>
